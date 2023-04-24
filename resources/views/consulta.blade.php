@@ -1,8 +1,4 @@
 
-<!-- Desenvolvido por Guilherme Lima de Paula 3 DS - Manhã - Matéria PW III -->
-
-<!-- Iniciando projeto -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta</title>
 
-    <!-- Styles -->
+
     @vite([
         'resources/css/app.css', 
             'resources/js/app.js',
@@ -20,7 +16,6 @@
         ])
 </head>
 <body>
-    <!-- Criando NavBar localizada na parte superior da aplicação -->
     <div class= "mx-auto bg-white">
         <div class="container-lg mx-auto px-0 py-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -43,9 +38,6 @@
                 </div>
             </div>
             </nav>
-    <!-- Fim do NavBar -->
-
-    <!-- Iniciando a tabela de dados -->
         <div class="container w-50 px-5 py-3">
         <h4 class="table-title"> Cadastrar - Contatos Agendados </h4>
         
@@ -75,7 +67,6 @@
                     @endforeach
             </tbody>
             </table>
-            <!-- Fim da tabela de dados -->
             </div>
             </div>
         </div>
