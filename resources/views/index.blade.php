@@ -16,7 +16,6 @@
 </head>
 <body>
 
-    <!-- Criando NavBar localizada na parte superior da aplicação -->
     <div class= "mx-auto bg-white">
         <div class="container-lg mx-auto px-0 py-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -36,9 +35,7 @@
                         </ul>
                     </div>
             </nav>
-    <!-- Fim do NavBar -->
 
-    <!-- Iniciando o formulário para cadastrar os dados -->
     <div class="card">
             <div class="card-body">
                 <div class="container-lg">
@@ -48,17 +45,16 @@
                         @csrf
                         <div class="form-row">
 
-                            <!-- Input Nome -->
                             <label for="validationCustom01">Nome</label>
                             <input type="text" name="nome" class="form-control" id="validationCustom01" placeholder="Nome Completo" required>
                             <br>
 
-                            <!-- Input Telefone -->
+                         
                             <label for="validationCustom02">Telefone:</label>
                             <input type="tel" name="telefone" class="form-control" id="validationCustom02" placeholder="(xx) xxxxx-xxxx"  required>
                             <br>
 
-                            <!-- Input Origem -->
+                      
                             <label for="inputState" class="form-label">Origem</label>
                             <select class="form-select" name="origem" id="inlineFormCustomSelect" required>
                                 <option selected value="Celular">Celular</option>
@@ -71,12 +67,12 @@
                             </select>     
                             <br>
 
-                            <!-- Input Data do Contato -->
+                   
                             <label for="validationCustom03">Data do Contato:</label>
                             <input type="date" name="contato" class="form-control" id="validationCustom03" placeholder="dd/mm/aaaa" required>
                             <br>
 
-                            <!-- Input Observação -->
+                 
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Observação:</label>
                                 <textarea class="form-control" name="observacao" name="txtObservacao" id="txtObservacao" placeholder="Digite uma observação" rows="3" required></textarea>
@@ -88,7 +84,7 @@
                             <input type="text" name="acao" class="form-control" id="validationCustom01" required>
                             <br>
 
-                            <!-- Botão Cadastrar -->
+                      
                             <button class="btn btn-primary" type="submit">Cadastrar</button>
                             </div>
                         </div>
@@ -97,7 +93,6 @@
             </div>
         </div>
     </div>
-     <!-- Fim do formulário -->
 </form>
 </body>
 </html>
